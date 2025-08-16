@@ -1,0 +1,79 @@
+# Core dependencies
+fastapi==0.109.0
+uvicorn[standard]==0.25.0
+python-multipart==0.0.6
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-dotenv==1.0.0
+
+# Database
+sqlalchemy==2.0.25
+psycopg2-binary==2.9.9
+alembic==1.13.1
+asyncpg==0.29.0
+pgvector==0.2.4
+
+# Redis
+redis==5.0.1
+celery==5.3.4
+
+# Validation
+pydantic==2.5.3
+pydantic-settings==2.1.0
+email-validator==2.1.0
+
+# AI/ML
+openai==1.6.1
+transformers==4.36.2
+torch==2.1.2
+sentencepiece==0.1.99
+fugashi==1.3.0
+unidic-lite==1.0.8
+spacy==3.7.2
+ginza==5.1.3
+ja-ginza==5.1.3
+
+# Image processing
+pillow==10.2.0
+boto3==1.34.14
+
+# API clients
+httpx==0.25.2
+aiohttp==3.9.1
+
+# Utilities
+numpy==1.26.3
+pandas==2.1.4
+python-dateutil==2.8.2
+pytz==2023.3.post1
+
+# Monitoring & Logging
+sentry-sdk[fastapi]==1.39.1
+python-json-logger==2.0.7
+prometheus-client==0.19.0
+
+# Payment
+stripe==7.10.0
+
+# Testing
+pytest==7.4.4
+pytest-asyncio==0.21.1
+pytest-cov==4.1.0
+httpx==0.25.2
+factory-boy==3.3.0
+faker==22.0.0
+
+# Development
+black==23.12.1
+ruff==0.1.9
+mypy==1.8.0
+pre-commit==3.6.0
+ipython==8.19.0
+
+# Security
+cryptography==41.0.7
+pyjwt==2.8.0
+
+# WebSocket
+python-socketio==5.11.0
+websockets==12.0

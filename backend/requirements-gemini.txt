@@ -1,0 +1,5 @@
+# Google Gemini API用の追加依存関係
+google-generativeai==0.3.2
+google-auth==2.26.1
+google-auth-oauthlib==1.2.0
+google-auth-httplib2==0.2.0
